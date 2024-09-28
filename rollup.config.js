@@ -1,5 +1,6 @@
 import commonjs from '@rollup/plugin-commonjs'
 import resolve from '@rollup/plugin-node-resolve'
+import terser from '@rollup/plugin-terser'
 import typescript from '@rollup/plugin-typescript'
 import { defineConfig } from 'rollup'
 
@@ -17,6 +18,6 @@ export default defineConfig({
 			sourcemap: true,
 		},
 	],
-	plugins: [resolve(), commonjs(), typescript()],
+	plugins: [resolve(), commonjs(), typescript(), terser()],
 	external: ['react'],
 })

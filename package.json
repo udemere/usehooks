@@ -1,6 +1,6 @@
 {
 	"name": "@udemere/usehooks",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "React hook library, ready to use, written in Typescript.",
 	"author": "Shakhbozbek Usmonov <shakhbozbek.usmonov@gmail.com>",
 	"homepage": "https://usehooks.udemere.uz",
@@ -39,12 +39,13 @@
 	"devDependencies": {
 		"@rollup/plugin-commonjs": "^28.0.0",
 		"@rollup/plugin-node-resolve": "^15.3.0",
+		"@rollup/plugin-terser": "^0.4.4",
 		"@rollup/plugin-typescript": "^12.1.0",
 		"@types/react": "^18.3.9",
 		"@types/react-dom": "^18.3.0",
+		"rimraf": "^4.1.2",
 		"rollup": "^4.22.4",
 		"rollup-plugin-typescript2": "^0.36.0",
-		"turbopack": "^0.0.1",
 		"typescript": "^5.6.2"
 	},
 	"engines": {
@@ -53,11 +54,8 @@
 	"files": [
 		"dist"
 	],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/shakhbozbekusmonov/use-hooks"
-	},
+	"repository": "udemere/usehooks",
 	"bugs": {
-		"url": "https://github.com/shakhbozbekusmonov/use-hooks/issues"
+		"url": "https://github.com/udemere/usehooks/issues"
 	}
 }

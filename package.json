@@ -1,0 +1,62 @@
+{
+	"name": "@udemere/use-hooks",
+	"version": "0.0.0",
+	"description": "React hook library, ready to use, written in Typescript.",
+	"author": "Shakhbozbek Usmonov <shakhbozbek.usmonov@gmail.com>",
+	"homepage": "https://packages.udemere.uz",
+	"keywords": [
+		"typescript",
+		"react",
+		"hooks"
+	],
+	"license": "MIT",
+	"type": "module",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		"./package.json": "./package.json",
+		".": {
+			"import": {
+				"types": "./dist/index.d.ts",
+				"default": "./dist/index.js"
+			},
+			"require": {
+				"types": "./dist/index.d.cts",
+				"default": "./dist/index.cjs"
+			}
+		}
+	},
+	"sideEffects": false,
+	"scripts": {
+		"build": "rollup -c --bundleConfigAsCjs",
+		"dev": "rollup -c --bundleConfigAsCjs --watch",
+		"clean": "rimraf dist .turbo *.tsbuildinfo"
+	},
+	"dependencies": {
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1"
+	},
+	"devDependencies": {
+		"@rollup/plugin-commonjs": "^28.0.0",
+		"@rollup/plugin-node-resolve": "^15.3.0",
+		"@types/react": "^18.3.9",
+		"@types/react-dom": "^18.3.0",
+		"rollup": "^4.22.4",
+		"rollup-plugin-typescript2": "^0.36.0",
+		"turbopack": "^0.0.1",
+		"typescript": "^5.6.2"
+	},
+	"engines": {
+		"node": ">=20.10.0"
+	},
+	"files": [
+		"dist"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/shakhbozbekusmonov/use-hooks"
+	},
+	"bugs": {
+		"url": "https://github.com/shakhbozbekusmonov/use-hooks/issues"
+	}
+}

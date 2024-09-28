@@ -1,25 +1,22 @@
 import commonjs from '@rollup/plugin-commonjs'
-import typescript from 'rollup-plugin-typescript2'
-import { nodeResolve } from '@rollup/plugin-node-resolve'
+import resolve from '@rollup/plugin-node-resolve'
+import typescript from '@rollup/plugin-typescript'
+import { defineConfig } from 'rollup'
 
-export default {
+export default defineConfig({
 	input: 'src/index.ts',
 	output: [
 		{
-			file: 'dist/index.cjs',
+			file: 'dist/index.cjs.js',
 			format: 'cjs',
-			exports: 'named',
+			sourcemap: true,
 		},
 		{
-			file: 'dist/index.js',
+			file: 'dist/index.esm.js',
 			format: 'es',
-			exports: 'named',
+			sourcemap: true,
 		},
 	],
-	plugins: [
-		nodeResolve(),
-		commonjs(), 
-		typescript(),
-	],
-	external: ['react', 'react-dom'],
-}
+	plugins: [resolve(), commonjs(), typescript()],
+	external: ['react'],
+})

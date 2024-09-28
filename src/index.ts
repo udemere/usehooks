@@ -1,3 +1,4 @@
 export * from './useCopyToClipboard'
-export * from './useDocumentTitle'
 export * from './useDebounce'
+export * from './useDocumentTitle'
+export * from './useFavicon'

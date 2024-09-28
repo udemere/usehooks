@@ -3,7 +3,7 @@
 	"version": "0.0.0",
 	"description": "React hook library, ready to use, written in Typescript.",
 	"author": "Shakhbozbek Usmonov <shakhbozbek.usmonov@gmail.com>",
-	"homepage": "https://packages.udemere.uz",
+	"homepage": "https://usehooks.udemere.uz",
 	"keywords": [
 		"typescript",
 		"react",

@@ -16,13 +16,19 @@ Install `@udemere/use-hooks` via npm or yarn:
 ```bash
 # npm
 npm install @udemere/use-hooks
+```
 
+```bash
 # yarn
 yarn add @udemere/use-hooks
+```
 
+```bash
 # pnpm
 pnpm add @udemere/use-hooks
+```
 
+```bash
 # bun
 bun add @udemere/use-hooks
 ```

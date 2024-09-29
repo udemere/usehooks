@@ -1,6 +1,6 @@
 {
 	"name": "@udemere/usehooks",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "React hook library, ready to use, written in Typescript.",
 	"author": "Shakhbozbek Usmonov <shakhbozbek.usmonov@gmail.com>",
 	"homepage": "https://usehooks.udemere.uz",
@@ -34,7 +34,8 @@
 	},
 	"dependencies": {
 		"react": "^18.3.1",
-		"react-dom": "^18.3.1"
+		"react-dom": "^18.3.1",
+		"react-router-dom": "^6.26.2"
 	},
 	"devDependencies": {
 		"@rollup/plugin-commonjs": "^28.0.0",

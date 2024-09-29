@@ -1,4 +1,4 @@
-# `useDocumentTitle`
+# `useDocumentTitle` Hook
 
 The `useDocumentTitle` hook allows you to dynamically update the title of the document (the browser tab title) in a React component.
 

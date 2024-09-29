@@ -1,4 +1,4 @@
-# `useFavicon`
+# `useFavicon` Hook
 
 The `useFavicon` hook allows you to dynamically set the browser's favicon for your web application. This hook is particularly useful in scenarios where the favicon may need to change based on user actions or application state.
 

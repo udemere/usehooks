@@ -1,4 +1,4 @@
-# `useCopyToClipboard`
+# `useCopyToClipboard` Hook
 
 The `useCopyToClipboard` hook provides an easy way to copy text to the clipboard in a React application. It manages the copied text state and handles the clipboard interaction.
 

@@ -1,4 +1,4 @@
-# `useDebounce`
+# `useDebounce` Hook
 
 The `useDebounce` hook delays updating a value until after a specified amount of time has passed. This is useful for preventing frequent updates from rapidly changing input, such as when typing in a search field.
 

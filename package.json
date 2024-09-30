@@ -1,6 +1,6 @@
 {
 	"name": "@udemere/usehooks",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "React hook library, ready to use, written in Typescript.",
 	"author": "Shakhbozbek Usmonov <shakhbozbek.usmonov@gmail.com>",
 	"homepage": "https://usehooks.udemere.uz",

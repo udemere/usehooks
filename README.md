@@ -147,6 +147,10 @@ A hook for generating unique identifiers.
 
 A hook to get the current window size dynamically.
 
+### `useArray`
+
+A hook to manage arrays with utility functions for adding, removing, updating, inserting, or clearing items from the array.
+
 ## Usage
 
 You can import and use any of the hooks in your React components like so:
